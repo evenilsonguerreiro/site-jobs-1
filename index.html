@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site-jobs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Steve Jobs</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">sobre</a></li>
+                <li><a href="">contato</a></li>
+                <li><a href="">blog</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <h2>O Grande criador da APPLE</h2>
+        <h3>Pensamentos</h3>
+        <p>
+            Seu trabalho vai preencher uma parte grande da sua vida, e a única maneira de ficar realmente satisfeito é fazer o que vc acredita ser um ótimo trabalho,
+             E a única maneira de fazer um exelente trabalho é amar o que você faz.
+         <p>
+            Você não consegue ligar os pontos, olhando pra frente; você só consegue ligá-los olhando para trás.Então você tem que confiar que os pontos se ligarão algum dia no futuro. você tem que confiar em algo
+            -seu instinto,destino,vida,carma, o que for .Esta abordagem nunca me desapontou, e fez toda diferencia na minha vida.
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis deleniti esse praesentium ab, alias dolore sunt velit saepe! In eos dolorum, ratione nobis nostrum laudantium sequi molestiae numquam totam!
+        <p>
+            Ásvez a vida te acerta na cabeça com um tijolo.
+            não perca a fé. Estou convecido de que a única coisa que me manteve no caminho foi amar o que eu fazia
+             Você precisa encontrar aquilo que ama.  
+        </p>   
+            
+           </p>
+           <div id="foto">
+            <img src="./imagem/imagem-stive.webp" alt="imagem-stivejobs">
+           </div>   
+    </main>
+    <section id="area2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aperiam illo amet rem placeat doloremque pariatur voluptatum? Labore eaque nihil cupiditate magnam aliquid. Soluta nam quidem, reiciendis excepturi voluptatem dolores.
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate hic iusto ex enim iure sit dolorem distinctio aspernatur, numquam ipsam accusantium sequi minima molestias in, quia natus veritatis, ab magni.</p>    
+        </p>
+        <div class="baner">
+            <img src="./imagem/imagem-steve-2.jpg" alt="">        
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio soluta ipsam quibusdam eius porro iste sequi ab, harum ipsa, pariatur adipisci repellendus id asperiores tempore obcaecati temporibus beatae libero consequuntur!
+        <p>Lorem ipsum dolor sit amet<a href=""> consectetur</a> adipisicing elit. Explicabo asperiores at esse praesentium sapiente obcaecati recusandae, quia debitis qui exercitationem quisquam voluptatibus excepturi numquam soluta animi distinctio suscipit architecto delectus!</p>    
+        </p>
+    </section>
+    <section id="area3">
+        
+        <img id="foto-3"   src="./imagem/imagem-apple.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit aliquid ex, a ipsum vel. Quaerat mollitia, aperiam illum, laboriosam, ullam ad voluptatibus sapiente possimus dolores laborum labore! Deserunt, fugiat?</p>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit aliquid ex, a ipsum vel. Quaerat mollitia, aperiam illum, laboriosam, ullam ad voluptatibus sapiente possimus dolores laborum labore! Deserunt, fugiat?</p>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit aliquid ex, a ipsum vel. Quaerat mollitia, aperiam illum, laboriosam, ullam ad voluptatibus sapiente possimus dolores laborum labore! Deserunt, fugiat?</p>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit aliquid ex, a ipsum vel. Quaerat mollitia, aperiam illum, laboriosam, ullam ad voluptatibus sapiente possimus dolores laborum labore! Deserunt, fugiat?</p>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit aliquid ex, a ipsum vel. Quaerat mollitia, aperiam illum, laboriosam, ullam ad voluptatibus sapiente possimus dolores laborum labore! Deserunt, fugiat?</p>    
+    </section>
+    <footer>
+        site criado por Evenilson <br>
+        &copy2023
+    </footer>
+    <script>
+        let d3 = document.querySelector('#area3')
+        d3.addEventListener('mouseenter',entrar)
+        d3.addEventListener('mouseout', saiu)
+
+        function entrar(){
+            d3.style.background = 'purple'
+        }
+        function saiu(){
+            d3.style.background = ' rgb(0,0,0,0.9)'
+        }
+
+
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+        
+    
+</body>
+</html>
